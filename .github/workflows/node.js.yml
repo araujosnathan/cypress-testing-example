@@ -1,0 +1,23 @@
+name: E2E Testing
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  e2e_testing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        id: install
+        run: npm install
+
+      - name: Run E2E tests
+        id: run
+        run: npm run cy:run:e2e
+
