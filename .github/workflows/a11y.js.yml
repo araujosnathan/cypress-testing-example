@@ -20,6 +20,6 @@ jobs:
         id: install
         run: npm install
 
-      - name: Run E2E tests
+      - name: Run A11Y tests
         id: run
         run: npm run cy:run:a11y
