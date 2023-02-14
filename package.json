@@ -8,7 +8,9 @@
     "cy:open": "cypress open",
     "cy:run:e2e": "cypress run --config-file cypress.config.js --spec 'cypress/e2e/specs/**/*' --browser chrome --headless --config video=false --env allure=true",
     "cy:run:a11y": "cypress run --config-file cypress.config.js --spec 'cypress/e2e/a11y/**/*' --browser chrome --headless --config video=false",
-    "allure:report": "allure generate allure-results --clean -o allure-report"
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "prettier": "prettier --write 'cypress/**/*.{js,json}'",
+    "lint": "eslint 'cypress/**/*.js'"
   },
   "dependencies": {
     "axe-core": "^4.6.3",
@@ -18,7 +20,13 @@
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
     "@shelex/cypress-allure-plugin": "^2.35.2",
-    "eslint": "^8.34.0"
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.4"
   },
   "husky": {
     "hooks": {
