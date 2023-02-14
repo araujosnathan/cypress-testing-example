@@ -62,3 +62,9 @@ But for this sample, I already generated the report, you can see an example in `
 You can acces the Report Tab to see all violations:
 
 ![](imgs/axe_guide_reports.png)
+
+## Notes
+
+Hey, this is a initial project, of course there are points that we can improve in Structure, Reports, Pipelines. But for a simple project, I believe it can be very useful.
+
+_“The road goes ever on and on.”_ - **The Hobbit**
