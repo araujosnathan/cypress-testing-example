@@ -34,12 +34,13 @@ function terminalLog(violations) {
   cy.task("table", violationData);
 }
 
-describe("Accessibility test automation with cypress axe", function() {
-  before(function() {
+describe("Accessibility test automation with cypress axe", function () {
+  // eslint-disable-next-line mocha/no-hooks-for-single-case
+  before(function () {
     cy.writeFile("a11yResult.json", "[]");
   });
 
-  it("Form Page", function() {
+  it("Form Page", function () {
     cy.visit("/");
     cy.injectAxe();
     cy.configureAxe(configurationAxe);
