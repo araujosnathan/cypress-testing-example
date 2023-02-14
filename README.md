@@ -1,4 +1,7 @@
-# cypress-testing-example
+[![E2E Testing](https://github.com/araujosnathan/cypress-testing-example/actions/workflows/e2e.js.yml/badge.svg)](https://github.com/araujosnathan/cypress-testing-example/actions/workflows/e2e.js.yml)
+[![Accessibility Tests](https://github.com/araujosnathan/cypress-testing-example/actions/workflows/a11y.js.yml/badge.svg)](https://github.com/araujosnathan/cypress-testing-example/actions/workflows/a11y.js.yml)
+
+# Cypress-Testing-Example
 
 This is a sample project to automate web application using cypress + (cypress-axe + axe report guide) to check accessibility tests.
 
