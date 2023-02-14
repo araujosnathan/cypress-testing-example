@@ -1,0 +1,211 @@
+[ {
+  "uid" : "f286ce58c2e7d546",
+  "name" : "Should disappear all errors when data is fill correctly",
+  "time" : {
+    "start" : 1676413852122,
+    "stop" : 1676413853439,
+    "duration" : 1317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "434c90ba9b456c1a",
+  "name" : "Should return success when submiting with Last Name with 25 characters",
+  "time" : {
+    "start" : 1676413829461,
+    "stop" : 1676413830991,
+    "duration" : 1530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f37b6a2c5777678",
+  "name" : "Should return error when First Name is Empty",
+  "time" : {
+    "start" : 1676413833467,
+    "stop" : 1676413834987,
+    "duration" : 1520
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1bacfdb1be78c9d",
+  "name" : "Should return error when Phone Number is Empty",
+  "time" : {
+    "start" : 1676413845082,
+    "stop" : 1676413846651,
+    "duration" : 1569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c36d9c8b585c72ba",
+  "name" : "Should return error when First Name has less than 2 chars",
+  "time" : {
+    "start" : 1676413836788,
+    "stop" : 1676413838102,
+    "duration" : 1314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afc6664decb33fad",
+  "name" : "Should return success when submiting with First Name with 25 characters",
+  "time" : {
+    "start" : 1676413826605,
+    "stop" : 1676413828116,
+    "duration" : 1511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50057166c17e5ee9",
+  "name" : "Should return success when submiting with all required field for Male",
+  "time" : {
+    "start" : 1676413824758,
+    "stop" : 1676413826599,
+    "duration" : 1841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "395dc893c80e753c",
+  "name" : "Should return success when submiting with all required field for Female",
+  "time" : {
+    "start" : 1676413832210,
+    "stop" : 1676413833462,
+    "duration" : 1252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b653e581a481cef",
+  "name" : "Should return error when Last Name has more than 25 chars",
+  "time" : {
+    "start" : 1676413839572,
+    "stop" : 1676413841239,
+    "duration" : 1667
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4a1337e2bb2b9f1",
+  "name" : "Should return error when Last Name has less than 2 chars",
+  "time" : {
+    "start" : 1676413841245,
+    "stop" : 1676413842487,
+    "duration" : 1242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32ab3b8d18ba9202",
+  "name" : "Should return error when Email is Empty",
+  "time" : {
+    "start" : 1676413842494,
+    "stop" : 1676413843922,
+    "duration" : 1428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea821ab31b5690ef",
+  "name" : "Should return error when Email is not correct format",
+  "time" : {
+    "start" : 1676413843927,
+    "stop" : 1676413845077,
+    "duration" : 1150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14b1d2be32f0b41b",
+  "name" : "Should return error when Phone Number is incorret format",
+  "time" : {
+    "start" : 1676413846657,
+    "stop" : 1676413848103,
+    "duration" : 1446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6993c63f4dc97728",
+  "name" : "Should return success when submiting with First Name with 2 characters",
+  "time" : {
+    "start" : 1676413828121,
+    "stop" : 1676413829455,
+    "duration" : 1334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "beef6a685ce1ed41",
+  "name" : "Should return success when submiting with Last Name with 2 characters",
+  "time" : {
+    "start" : 1676413830998,
+    "stop" : 1676413832205,
+    "duration" : 1207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4ef4c3b8e610928",
+  "name" : "Should return error when Phone Number is has more than 12 characters",
+  "time" : {
+    "start" : 1676413848108,
+    "stop" : 1676413849420,
+    "duration" : 1312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b68196a9f5d1f6bb",
+  "name" : "Should return error when Agreement is not accepted",
+  "time" : {
+    "start" : 1676413849425,
+    "stop" : 1676413850655,
+    "duration" : 1230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0d61d89d2c7be07",
+  "name" : "Should return error when Last Name is Empty",
+  "time" : {
+    "start" : 1676413838107,
+    "stop" : 1676413839568,
+    "duration" : 1461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe8d162139e6ea39",
+  "name" : "Should return error when Gender is not choosen",
+  "time" : {
+    "start" : 1676413850660,
+    "stop" : 1676413851946,
+    "duration" : 1286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff159f7a9c8ba6d0",
+  "name" : "Should return error when First Name has more than 25 chars",
+  "time" : {
+    "start" : 1676413834993,
+    "stop" : 1676413836783,
+    "duration" : 1790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fc2fba9ec486219",
+  "name" : "Should return all errors when data is empty",
+  "time" : {
+    "start" : 1676413851953,
+    "stop" : 1676413852121,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

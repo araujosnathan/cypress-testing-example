@@ -1,0 +1,515 @@
+[
+	{
+		"id": "color-contrast",
+		"impact": "serious",
+		"tags": [
+			"cat.color",
+			"wcag2aa",
+			"wcag143",
+			"ACT"
+		],
+		"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+		"help": "Elements must have sufficient color contrast",
+		"helpUrl": "https://dequeuniversity.com/rules/Swag Labs/4.6/color-contrast?application=Swag%20Labs%20Demo%20App",
+		"nodes": [
+			{
+				"any": [
+					{
+						"id": "color-contrast",
+						"data": {
+							"fgColor": "#ffffff",
+							"bgColor": "#7dd1d1",
+							"contrastRatio": 1.76,
+							"fontSize": "12.0pt (16px)",
+							"fontWeight": "normal",
+							"messageKey": null,
+							"expectedContrastRatio": "4.5:1"
+						},
+						"relatedNodes": [
+							{
+								"html": "<input type=\"submit\" name=\"submitbutton\" id=\"99\" value=\"submit\">",
+								"target": [
+									"#\\39 9"
+								]
+							}
+						],
+						"impact": "serious",
+						"message": "Element has insufficient color contrast of 1.76 (foreground color: #ffffff, background color: #7dd1d1, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+					}
+				],
+				"all": [],
+				"none": [],
+				"impact": "serious",
+				"html": "<input type=\"submit\" name=\"submitbutton\" id=\"99\" value=\"submit\">",
+				"target": [
+					"#\\39 9"
+				]
+			}
+		]
+	},
+	{
+		"id": "label",
+		"impact": "critical",
+		"tags": [
+			"cat.forms",
+			"wcag2a",
+			"wcag412",
+			"section508",
+			"section508.22.n",
+			"ACT"
+		],
+		"description": "Ensures every form element has a label",
+		"help": "Form elements must have labels",
+		"helpUrl": "https://dequeuniversity.com/rules/Swag Labs/4.6/label?application=Swag%20Labs%20Demo%20App",
+		"nodes": [
+			{
+				"any": [
+					{
+						"id": "implicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an implicit (wrapped) <label>"
+					},
+					{
+						"id": "explicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an explicit <label>"
+					},
+					{
+						"id": "aria-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-label attribute does not exist or is empty"
+					},
+					{
+						"id": "aria-labelledby",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+					},
+					{
+						"id": "non-empty-title",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no title attribute"
+					},
+					{
+						"id": "non-empty-placeholder",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no placeholder attribute"
+					},
+					{
+						"id": "presentational-role",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "minor",
+						"message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+					}
+				],
+				"all": [],
+				"none": [],
+				"impact": "critical",
+				"html": "<input type=\"text\" name=\"FirstName\" id=\"1\">",
+				"target": [
+					"#\\31 "
+				]
+			},
+			{
+				"any": [
+					{
+						"id": "implicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an implicit (wrapped) <label>"
+					},
+					{
+						"id": "explicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an explicit <label>"
+					},
+					{
+						"id": "aria-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-label attribute does not exist or is empty"
+					},
+					{
+						"id": "aria-labelledby",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+					},
+					{
+						"id": "non-empty-title",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no title attribute"
+					},
+					{
+						"id": "non-empty-placeholder",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no placeholder attribute"
+					},
+					{
+						"id": "presentational-role",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "minor",
+						"message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+					}
+				],
+				"all": [],
+				"none": [],
+				"impact": "critical",
+				"html": "<input type=\"text\" name=\"LastName\" id=\"2\">",
+				"target": [
+					"#\\32 "
+				]
+			},
+			{
+				"any": [
+					{
+						"id": "implicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an implicit (wrapped) <label>"
+					},
+					{
+						"id": "explicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an explicit <label>"
+					},
+					{
+						"id": "aria-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-label attribute does not exist or is empty"
+					},
+					{
+						"id": "aria-labelledby",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+					},
+					{
+						"id": "non-empty-title",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no title attribute"
+					},
+					{
+						"id": "non-empty-placeholder",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no placeholder attribute"
+					},
+					{
+						"id": "presentational-role",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "minor",
+						"message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+					}
+				],
+				"all": [],
+				"none": [],
+				"impact": "critical",
+				"html": "<input type=\"text\" name=\"Email\" id=\"3\">",
+				"target": [
+					"#\\33 "
+				]
+			},
+			{
+				"any": [
+					{
+						"id": "implicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an implicit (wrapped) <label>"
+					},
+					{
+						"id": "explicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an explicit <label>"
+					},
+					{
+						"id": "aria-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-label attribute does not exist or is empty"
+					},
+					{
+						"id": "aria-labelledby",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+					},
+					{
+						"id": "non-empty-title",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no title attribute"
+					},
+					{
+						"id": "non-empty-placeholder",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no placeholder attribute"
+					},
+					{
+						"id": "presentational-role",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "minor",
+						"message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+					}
+				],
+				"all": [],
+				"none": [],
+				"impact": "critical",
+				"html": "<input type=\"tel\" name=\"PhoneNumber\" id=\"4\">",
+				"target": [
+					"#\\34 "
+				]
+			},
+			{
+				"any": [
+					{
+						"id": "implicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an implicit (wrapped) <label>"
+					},
+					{
+						"id": "explicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an explicit <label>"
+					},
+					{
+						"id": "aria-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-label attribute does not exist or is empty"
+					},
+					{
+						"id": "aria-labelledby",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+					},
+					{
+						"id": "non-empty-title",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no title attribute"
+					},
+					{
+						"id": "non-empty-placeholder",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no placeholder attribute"
+					},
+					{
+						"id": "presentational-role",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "minor",
+						"message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+					}
+				],
+				"all": [],
+				"none": [],
+				"impact": "critical",
+				"html": "<input type=\"radio\" name=\"Gender\" value=\"Male\">",
+				"target": [
+					"input[value=\"Male\"]"
+				]
+			},
+			{
+				"any": [
+					{
+						"id": "implicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an implicit (wrapped) <label>"
+					},
+					{
+						"id": "explicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an explicit <label>"
+					},
+					{
+						"id": "aria-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-label attribute does not exist or is empty"
+					},
+					{
+						"id": "aria-labelledby",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+					},
+					{
+						"id": "non-empty-title",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no title attribute"
+					},
+					{
+						"id": "non-empty-placeholder",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no placeholder attribute"
+					},
+					{
+						"id": "presentational-role",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "minor",
+						"message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+					}
+				],
+				"all": [],
+				"none": [],
+				"impact": "critical",
+				"html": "<input type=\"radio\" name=\"Gender\" value=\"Female\">",
+				"target": [
+					"input[value=\"Female\"]"
+				]
+			},
+			{
+				"any": [
+					{
+						"id": "implicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an implicit (wrapped) <label>"
+					},
+					{
+						"id": "explicit-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "critical",
+						"message": "Form element does not have an explicit <label>"
+					},
+					{
+						"id": "aria-label",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-label attribute does not exist or is empty"
+					},
+					{
+						"id": "aria-labelledby",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+					},
+					{
+						"id": "non-empty-title",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no title attribute"
+					},
+					{
+						"id": "non-empty-placeholder",
+						"data": {
+							"messageKey": "noAttr"
+						},
+						"relatedNodes": [],
+						"impact": "serious",
+						"message": "Element has no placeholder attribute"
+					},
+					{
+						"id": "presentational-role",
+						"data": null,
+						"relatedNodes": [],
+						"impact": "minor",
+						"message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+					}
+				],
+				"all": [],
+				"none": [],
+				"impact": "critical",
+				"html": "<input type=\"checkbox\" name=\"Agreement\" id=\"5\">",
+				"target": [
+					"#\\35 "
+				]
+			}
+		]
+	}
+]

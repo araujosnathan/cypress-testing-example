@@ -1,0 +1,28 @@
+{
+  "name": "cypress-testing-example",
+  "version": "1.0.0",
+  "description": "Cypress Testing Example",
+  "author": "Nathan Araujo",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:e2e": "cypress run --config-file cypress.config.js --spec 'cypress/e2e/specs/**/*' --browser chrome --headless --config video=false --env allure=true",
+    "cy:run:a11y": "cypress run --config-file cypress.config.js --spec 'cypress/e2e/a11y/**/*' --browser chrome --headless --config video=false",
+    "allure:report": "allure generate allure-results --clean -o allure-report"
+  },
+  "dependencies": {
+    "axe-core": "^4.6.3",
+    "cypress": "^12.3.0",
+    "cypress-axe": "^1.3.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@shelex/cypress-allure-plugin": "^2.35.2",
+    "eslint": "^8.34.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier && npm run lint"
+    }
+  }
+}
